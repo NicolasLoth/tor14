@@ -28,6 +28,11 @@ export class HeaderComponent implements OnInit {
 
   logout() {
     this.authenticationService.logout()
+      .subscribe(() => this.router.navigate(['/home'], { replaceUrl: true }));
+  }
+
+  login() {
+    this.authenticationService.logout()
       .subscribe(() => this.router.navigate(['/login'], { replaceUrl: true }));
   }
 
@@ -42,6 +47,10 @@ export class HeaderComponent implements OnInit {
   get username(): string {
     const credentials = this.authenticationService.credentials;
     return credentials ? credentials.username : null;
+  }
+
+  get isAuthenticated(): string {
+    return this.authenticationService.isAuthenticated();
   }
 
   get title(): string {
