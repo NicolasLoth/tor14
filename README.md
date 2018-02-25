@@ -1,4 +1,4 @@
-# tor14
+# TOR14
 ## Clone git repository
 1. Make sure you have git installed [(how to install git)](https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-installieren)
 2. Clone repo
