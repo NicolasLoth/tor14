@@ -8,3 +8,4 @@ git clone https://github.engineering.zhaw.ch/hotticyr/tor14.git3
 
 ## Setup server project
 ## Setup ui project
+[extensive manual here](https://github.com/cyrilhottinger/tor14/tree/master/ui)
