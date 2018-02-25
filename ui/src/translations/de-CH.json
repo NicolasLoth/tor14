@@ -1,0 +1,16 @@
+{
+  "APP_NAME": "TOR14",
+  "About": "Über",
+  "Hello world !": "Hallo Welt!",
+  "Home": "Home",
+  "Logged in as": "Eingeloggt als",
+  "Login": "Login",
+  "Logout": "Logout",
+  "Password": "Passwort",
+  "Password is required": "Passwort eingeben",
+  "Username": "Benutzername",
+  "Username is required": "Benutzername eingeben",
+  "Username or password incorrect.": "Benutzername oder Passwort ist nicht korrekt.",
+  "Remember me": "Eingeloggt bleiben",
+  "Version": "Version"
+}
