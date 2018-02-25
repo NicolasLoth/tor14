@@ -12,5 +12,7 @@
   "Username is required": "Benutzername eingeben",
   "Username or password incorrect.": "Benutzername oder Passwort ist nicht korrekt.",
   "Remember me": "Eingeloggt bleiben",
-  "Version": "Version"
+  "Version": "Version",
+  "en-US": "English",
+  "de-CH": "Deutsch"
 }
