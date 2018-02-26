@@ -49,7 +49,7 @@ export class HeaderComponent implements OnInit {
     return credentials ? credentials.username : null;
   }
 
-  get isAuthenticated(): string {
+  get isAuthenticated(): boolean {
     return this.authenticationService.isAuthenticated();
   }
 
