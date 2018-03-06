@@ -7,14 +7,25 @@
 //
 // You can also read https://medium.com/@tomastrajan/the-complete-guide-to-angular-material-themes-4d165a9d24d1
 // for more insight about Angular Material theming.
+@import url('https://fonts.googleapis.com/css?family=Karma|Open+Sans');
 
 @import "~@angular/material/theming";
 
+$general-typography: mat-typography-config(
+  $font-family: '"Karma", "Helvetica Neue", serif',
+  $body-2:        mat-typography-level(14px, 24px, 600)
+);
+
+$secondary-typography: mat-typography-config(
+  $font-family: 'Open Sans, sans-serif'
+);
+
+@include mat-core($general-typography);
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue.
-$app-primary: mat-palette($mat-amber);
-$app-accent:  mat-palette($mat-amber, A200, A100, A400);
+$app-primary: mat-palette($mat-light-green, A200);
+$app-accent:  mat-palette($mat-grey, 700);
 
 // The warn palette is optional (defaults to red).
 $app-warn:    mat-palette($mat-red);
