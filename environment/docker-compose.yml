@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  reverseproxy:
+    build: reverseproxy
+    ports:
+      - 80:80
+#      - 8080:8080
+#      - 9080:9080
+  frontend:
+    depends_on:
+      - reverseproxy
+    build: ./frontend
+    restart: always
+  backend:
+    depends_on:
+      - reverseproxy
+    build: ./backend
+    restart: always
